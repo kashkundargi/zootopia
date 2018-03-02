@@ -46,3 +46,5 @@ Add Constraints Keeper_FK3 Foreign Key (kName) REFERENCES Keeper(kName);
 
 Alter Table AttendsTo
 Add Constraints Cage_FK4 Foreign Key (CageID) REFERENCES Cage(CageID);
+
+-- this is the end of this script !!!
