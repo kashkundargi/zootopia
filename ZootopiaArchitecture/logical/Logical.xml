@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B6C72E8A-1A20-454D-C508-0425E66F8CE5" mainViewID="997C0572-D114-3AF9-4F53-8A146819098E">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:32:35 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B1D6938-F261-3D34-F409-50E35BFB8BAC" schemaObject="48B52398-ED1A-D61D-56C6-F38277BA18F8" name="KEEPER">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>KEEPER</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KNAME" id="DE853DEB-BB36-8061-0C20-13D11FBE8356">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>KEEPER</sourceObjSchema>
+<sourceObjName>KNAME</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY" id="36B02A16-A013-BD71-0993-9834A6B16B78">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>KEEPER</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="288E8D7F-8087-67A7-D33D-2B39FAC3720C" schemaObject="48B52398-ED1A-D61D-56C6-F38277BA18F8" name="KEEPER_PK">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>SYS_C007093</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE853DEB-BB36-8061-0C20-13D11FBE8356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C10D6C34-630F-D746-C05A-6BC4D11574FE" schemaObject="48B52398-ED1A-D61D-56C6-F38277BA18F8" name="CAGE">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>CAGE</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:26 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAGEID" id="E4EF3B1B-F7C5-270C-05B1-51771641E28F">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>CAGE</sourceObjSchema>
+<sourceObjName>CAGEID</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTION" id="4521A7A5-1CC3-3276-ADB8-B43A9CD4F811">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>CAGE</sourceObjSchema>
+<sourceObjName>SECTION</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SQUAREFEET" id="35D731E3-B022-5BD0-7E43-B5F573E2572E">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>CAGE</sourceObjSchema>
+<sourceObjName>SQUAREFEET</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAXWEIGHT" id="12EED7BA-D403-66A9-C00C-9779472CDEA5">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>CAGE</sourceObjSchema>
+<sourceObjName>MAXWEIGHT</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C874CEC-ADB0-4B3B-6C3A-741612D703B6" schemaObject="48B52398-ED1A-D61D-56C6-F38277BA18F8" name="CAGE_PK">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>SYS_C007088</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4EF3B1B-F7C5-270C-05B1-51771641E28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

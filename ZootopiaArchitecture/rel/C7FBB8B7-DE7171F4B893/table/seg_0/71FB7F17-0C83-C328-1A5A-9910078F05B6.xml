@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71FB7F17-0C83-C328-1A5A-9910078F05B6" schemaObject="48B52398-ED1A-D61D-56C6-F38277BA18F8" name="ANIMAL">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>ANIMAL</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPECIES" id="B98103F8-F38C-E826-26A9-D34AEDDCE141">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>ANIMAL</sourceObjSchema>
+<sourceObjName>SPECIES</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANAME" id="93416214-2FD2-6A6F-B2AF-2298FCCC69B0">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>ANIMAL</sourceObjSchema>
+<sourceObjName>ANAME</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEIGHT" id="BDB3D927-990D-20DF-CD50-1EBCE1B98489">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>ANIMAL</sourceObjSchema>
+<sourceObjName>WEIGHT</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF3A85ED-F7C4-95C0-32F6-2136821BAAD7" schemaObject="48B52398-ED1A-D61D-56C6-F38277BA18F8" name="ANIMAL_PK">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>SYS_C007091</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B98103F8-F38C-E826-26A9-D34AEDDCE141"/>
+<colUsage columnID="93416214-2FD2-6A6F-B2AF-2298FCCC69B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

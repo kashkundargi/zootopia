@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D20D058-B32D-53A6-FD97-7007FB79CCEA" containerWithKeyObject="135E1A65-BF40-C5F8-717D-65AFFDDF8FB5" localFKIndex="96380D48-0674-549E-AB66-CFFF1FDC6590" name="SPECIES_FK2">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>SPECIES_FK2</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:43 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<referredTableLongName>EDU.ANIMAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71FB7F17-0C83-C328-1A5A-9910078F05B6</referredTableID>
+<keyObject>AF3A85ED-F7C4-95C0-32F6-2136821BAAD7</keyObject>
+<referredKeyID>AF3A85ED-F7C4-95C0-32F6-2136821BAAD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SPECIES,ANAME</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

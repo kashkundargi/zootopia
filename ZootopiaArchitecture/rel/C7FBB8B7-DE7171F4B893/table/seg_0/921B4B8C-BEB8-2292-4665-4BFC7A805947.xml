@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="921B4B8C-BEB8-2292-4665-4BFC7A805947" schemaObject="48B52398-ED1A-D61D-56C6-F38277BA18F8" name="ATTENDSTO">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>ATTENDSTO</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KNAME" id="E138716F-BAC3-0584-5211-5D96D0BA6379">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>ATTENDSTO</sourceObjSchema>
+<sourceObjName>KNAME</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C04D9E3C-74A3-B65A-50CE-8CF01E031E27" referredColumn="DE853DEB-BB36-8061-0C20-13D11FBE8356"/>
+</associations>
+</Column>
+<Column name="CAGEID" id="FE9BB73C-9484-124D-1FF6-BBA55AF8590D">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>ATTENDSTO</sourceObjSchema>
+<sourceObjName>CAGEID</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7570209-45C6-8ECD-2F48-DBAE561D8268" referredColumn="E4EF3B1B-F7C5-270C-05B1-51771641E28F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24C2906A-07E7-825A-5306-EFF0057663E1" schemaObject="48B52398-ED1A-D61D-56C6-F38277BA18F8" name="ATTENDSTO_PK">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>SYS_C007094</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E138716F-BAC3-0584-5211-5D96D0BA6379"/>
+<colUsage columnID="FE9BB73C-9484-124D-1FF6-BBA55AF8590D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0941E3F0-DDBF-C5BC-EB24-E01455E3DD6D" name="CAGE_FK4">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE9BB73C-9484-124D-1FF6-BBA55AF8590D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54AC77A9-E8E0-247F-EF69-70C3018CA0EA" name="KEEPER_FK3">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E138716F-BAC3-0584-5211-5D96D0BA6379"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

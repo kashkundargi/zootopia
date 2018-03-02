@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ATTENDSTO" directorySegmentName="seg_0" id="921B4B8C-BEB8-2292-4665-4BFC7A805947">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7FC3F009-0B71-660D-14BD-97801D6840A8</segment>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="KNAME" id="E138716F-BAC3-0584-5211-5D96D0BA6379">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAGEID" id="FE9BB73C-9484-124D-1FF6-BBA55AF8590D">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CAGE_FK4" id="0941E3F0-DDBF-C5BC-EB24-E01455E3DD6D">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KEEPER_FK3" id="54AC77A9-E8E0-247F-EF69-70C3018CA0EA">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ATTENDSTO_PK" id="24C2906A-07E7-825A-5306-EFF0057663E1">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<segment>62E9F0BD-B2BB-B74F-C0B9-3C66EB41DBCC</segment>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+<indexSegment>62E9F0BD-B2BB-B74F-C0B9-3C66EB41DBCC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

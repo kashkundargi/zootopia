@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CAGE" directorySegmentName="seg_0" id="C10D6C34-630F-D746-C05A-6BC4D11574FE">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:26 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7FC3F009-0B71-660D-14BD-97801D6840A8</segment>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MAXWEIGHT" id="12EED7BA-D403-66A9-C00C-9779472CDEA5">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SQUAREFEET" id="35D731E3-B022-5BD0-7E43-B5F573E2572E">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECTION" id="4521A7A5-1CC3-3276-ADB8-B43A9CD4F811">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAGEID" id="E4EF3B1B-F7C5-270C-05B1-51771641E28F">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CAGE_PK" id="6C874CEC-ADB0-4B3B-6C3A-741612D703B6">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:27 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<segment>62E9F0BD-B2BB-B74F-C0B9-3C66EB41DBCC</segment>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+<indexSegment>62E9F0BD-B2BB-B74F-C0B9-3C66EB41DBCC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

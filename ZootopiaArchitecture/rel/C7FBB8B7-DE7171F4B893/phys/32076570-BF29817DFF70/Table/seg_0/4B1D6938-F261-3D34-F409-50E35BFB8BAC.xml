@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="KEEPER" directorySegmentName="seg_0" id="4B1D6938-F261-3D34-F409-50E35BFB8BAC">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7FC3F009-0B71-660D-14BD-97801D6840A8</segment>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SALARY" id="36B02A16-A013-BD71-0993-9834A6B16B78">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KNAME" id="DE853DEB-BB36-8061-0C20-13D11FBE8356">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KEEPER_PK" id="288E8D7F-8087-67A7-D33D-2B39FAC3720C">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<segment>62E9F0BD-B2BB-B74F-C0B9-3C66EB41DBCC</segment>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+<indexSegment>62E9F0BD-B2BB-B74F-C0B9-3C66EB41DBCC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

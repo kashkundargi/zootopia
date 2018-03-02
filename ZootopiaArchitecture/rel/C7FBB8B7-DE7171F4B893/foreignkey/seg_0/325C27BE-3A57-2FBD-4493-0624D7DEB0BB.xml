@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="325C27BE-3A57-2FBD-4493-0624D7DEB0BB" containerWithKeyObject="135E1A65-BF40-C5F8-717D-65AFFDDF8FB5" localFKIndex="0D443FFD-506C-B26B-4198-2C5DA27876DA" name="CAGEID_FK1">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjSchema>EDU</sourceObjSchema>
+<sourceObjName>CAGEID_FK1</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:43 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<referredTableLongName>EDU.CAGE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C10D6C34-630F-D746-C05A-6BC4D11574FE</referredTableID>
+<keyObject>6C874CEC-ADB0-4B3B-6C3A-741612D703B6</keyObject>
+<referredKeyID>6C874CEC-ADB0-4B3B-6C3A-741612D703B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CAGEID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

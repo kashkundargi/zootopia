@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ANIMAL" directorySegmentName="seg_0" id="71FB7F17-0C83-C328-1A5A-9910078F05B6">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7FC3F009-0B71-660D-14BD-97801D6840A8</segment>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ANAME" id="93416214-2FD2-6A6F-B2AF-2298FCCC69B0">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPECIES" id="B98103F8-F38C-E826-26A9-D34AEDDCE141">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEIGHT" id="BDB3D927-990D-20DF-CD50-1EBCE1B98489">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ANIMAL_PK" id="AF3A85ED-F7C4-95C0-32F6-2136821BAAD7">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<segment>62E9F0BD-B2BB-B74F-C0B9-3C66EB41DBCC</segment>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+<indexSegment>62E9F0BD-B2BB-B74F-C0B9-3C66EB41DBCC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

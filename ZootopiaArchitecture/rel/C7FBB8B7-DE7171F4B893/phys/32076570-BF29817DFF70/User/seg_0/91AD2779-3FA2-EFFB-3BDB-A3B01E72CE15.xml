@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="EDU" directorySegmentName="seg_0" id="91AD2779-3FA2-EFFB-3BDB-A3B01E72CE15">
+<sourceConnName>EDU_XE</sourceConnName>
+<sourceObjName>EDU</sourceObjName>
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:53 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<schemaObject>48B52398-ED1A-D61D-56C6-F38277BA18F8</schemaObject>
+<defTableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</defTableSpace>
+<privileges>CREATE SESSION, CREATE ANY CONTEXT, CREATE SYNONYM, CREATE MATERIALIZED VIEW, CREATE INDEXTYPE, CREATE TYPE, CREATE TABLE, CREATE CLUSTER, CREATE PROCEDURE, CREATE VIEW, CREATE OPERATOR, CREATE JOB, CREATE SEQUENCE, CREATE TRIGGER, CREATE DIMENSION</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="4689E013-9F6A-DEBD-9C4A-F0ECBF1CBB81">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:33:54 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="36A5B4C9-0095-A7BD-97BA-F7E02BD17F33">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:26 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="C9F3AF55-BB14-5C34-6EF3-7818E900B6A7">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:36 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="06844F7E-BF43-19CE-68C5-58B9312A69F7">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:34:43 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="4BBF4139-2772-E510-992B-82CDFDFF862A">
+<createdBy>kashk</createdBy>
+<createdTime>2018-03-02 01:35:13 UTC</createdTime>
+<ownerDesignName>ZootopiaArchitecture</ownerDesignName>
+<tableSpace>0ECC3837-12D9-38E2-03DF-C71951105FB6</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>
